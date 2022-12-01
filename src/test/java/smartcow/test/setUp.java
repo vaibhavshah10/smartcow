@@ -21,7 +21,7 @@ loginPageObj loginPage;
 @BeforeMethod
 public void getApplicationURL() throws InterruptedException
 	{
-		 System.setProperty("webdriver.chrome.driver","C:/Users/Atheer/Downloads/chromedriver.exe");
+		 System.setProperty("webdriver.chrome.driver","<chromedriverPath>/chromedriver.exe");
 		   driver=new ChromeDriver();		
 			driver.manage().window().maximize();	
 			driver.get("http://www.saucedemo.com");
