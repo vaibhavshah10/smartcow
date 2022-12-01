@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="smart cow assignment" parallel="false">
+  <test name="Test for standard user">   
+    <classes>
+      <class name="smartcow.test.placeOrderTest"/>
+    </classes>
+  </test>
+</suite> 
