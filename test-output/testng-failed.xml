@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [smart cow assignment]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" name="Test for standard user(failed)">
+    <classes>
+      <class name="smartcow.test.placeOrderTest">
+        <methods>
+          <include name="standard_user"/>
+          <include name="quitDriver"/>
+          <include name="getApplicationURL"/>
+        </methods>
+      </class> <!-- smartcow.test.placeOrderTest -->
+    </classes>
+  </test> <!-- Test for standard user(failed) -->
+</suite> <!-- Failed suite [smart cow assignment] -->
